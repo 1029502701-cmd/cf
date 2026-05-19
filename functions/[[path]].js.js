@@ -365,7 +365,6 @@ ${url.origin}/${token}/sub`
 
 		return new Response("Worker 正常运行");
 	}
-}
 // ======= [用户管理系统 - 结束] =======
 		const 访问路径 = url.pathname.slice(1).toLowerCase();
 		调试日志打印 = ['1', 'true'].includes(env.DEBUG) || 调试日志打印;
