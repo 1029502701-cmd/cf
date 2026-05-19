@@ -792,7 +792,6 @@ ${url.origin}/${token}/sub`
 		} catch (error) { }
 		return new Response(await nginx(), { status: 200, headers: { 'Content-Type': 'text/html; charset=UTF-8' } });
 	}
-};
 ///////////////////////////////////////////////////////////////////////XHTTP传输数据///////////////////////////////////////////////
 async function 处理XHTTP请求(request, yourUUID) {
 	if (!request.body) return new Response('Bad Request', { status: 400 });
